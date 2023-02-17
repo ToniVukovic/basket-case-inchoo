@@ -31,7 +31,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 49px;
 }
 
 .menu-opener {
@@ -75,6 +75,7 @@ body {
   border-bottom: 1px solid gray;
   padding: 7px;
   margin: 7px 14px;
+  height: 120px;
 }
 
 .item-name,

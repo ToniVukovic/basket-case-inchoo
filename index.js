@@ -16,7 +16,7 @@ function toggleOpen() {
 let up = document.getElementById("nav-up");
 let down = document.getElementById("nav-down");
 
-var slideIndex = 2;
+var slideIndex = 3;
 showDivs(slideIndex);
 
 function plusDivs(n) {
@@ -34,10 +34,10 @@ function showDivs(n) {
     down.disabled = false;
   }
 
-  if (n <= 2) {
+  if (n <= 3) {
     up.disabled = true;
   }
-  if (n > 2) {
+  if (n > 3) {
     up.disabled = false;
   }
 
@@ -46,4 +46,5 @@ function showDivs(n) {
   }
   x[slideIndex - 1].style.display = "flex";
   x[slideIndex - 2].style.display = "flex";
+  x[slideIndex - 3].style.display = "flex";
 }
