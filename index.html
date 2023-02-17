@@ -22,7 +22,7 @@
       <div class="arrow-left" id="left"></div>
       <div class="cart-items" id="menu">
         <div class="navigate-btn-wrapper">
-          <button class="navigate-btn">
+          <button onclick="plusDivs(-1)" id="nav-up" class="navigate-btn">
             <img src="./images/up-arrow.svg" alt="arrow up" />
           </button>
         </div>
@@ -80,7 +80,7 @@
           </div>
         </div>
         <div class="navigate-btn-wrapper">
-          <button class="navigate-btn" disabled>
+          <button onclick="plusDivs(1)" id="nav-down" class="navigate-btn">
             <img src="./images/down-arrow.svg" alt="arrow down" />
           </button>
         </div>
